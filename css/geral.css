@@ -48,9 +48,7 @@ table {
   margin: 0 auto;
   grid-gap: 10px;
   -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: (auto)[4];
-      grid-template-rows: repeat(4, auto); }
+      grid-template-columns: 1fr 1fr 1fr; }
 
 header,
 footer {
@@ -58,7 +56,7 @@ footer {
   -ms-grid-column-span: 3;
   grid-column: 1 / 4;
   padding: 10px;
-  background: #00796B; }
+  background: #cccccc; }
 
 footer {
   height: auto; }
