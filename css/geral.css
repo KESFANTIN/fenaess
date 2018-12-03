@@ -40,3 +40,10 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px; }
