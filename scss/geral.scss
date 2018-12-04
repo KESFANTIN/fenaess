@@ -76,6 +76,32 @@ footer {
     grid-gap: 10px;
     grid-template: 1fr;
     padding:10px;
-    background:$cinza;
     height:auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-top ul {
+        display: flex;
+
+        li {
+            padding: 10px;
+            
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 0.8em;
+                font-family: Helvetica, Verdana, Arial, sans-serif;
+                font-weight: bold;
+                color: $azul / 2;
+
+                &:hover {
+                    color: $azul;
+                }
+            }
+        }
+    }
 }
