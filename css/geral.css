@@ -41,14 +41,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-button {
+.btn {
   background: #1976d2;
   color: #ffffff;
   border: 0;
   padding: 0.5rem;
-  cursor: pointer; }
-  button:hover {
+  text-decoration: none; }
+  .btn:hover {
     background: #00796B; }
+
+.nav-social svg {
+  color: #0d3b69; }
+  .nav-social svg:hover {
+    color: #1976d2; }
 
 .container {
   display: -ms-grid;
@@ -99,7 +104,7 @@ main {
   padding: 10px;
   background: #cccccc; }
   .card h1, .card p {
-    margin-bottom: 10px; }
+    padding-bottom: 10px; }
 
 header,
 footer {
