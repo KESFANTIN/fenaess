@@ -12,98 +12,27 @@
     }
 }
 
-.nav-social svg {
-    color: $azul;
-
-    &:hover {
-        color: $azul / 2;
-    }
-}
-
 // Container
 .container {
-    display:grid;
-    grid-gap: 10px;
-    grid-template-columns:1fr;
-    grid-template-rows:1fr;
-    width:1024px;
-    margin:0 auto;
-}
-
-.banner {
-    background: $cinza;
-    padding: 10px;
-}
-
-main {
     display: grid;
     grid-gap: 10px;
-}
-
-.noticias {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-
-    .card {
-        &:first-child {
-            grid-column: 1 / 3;
-            grid-row: 1 / 3;
-        }
-    }
-}
-
-.galerias {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-}
-
-.card {
-    padding: 10px;
-    background: $branco;
-
-    h1, p {
-        margin-bottom: 10px;
-    }
-}
-
-header,
-footer {
-    display: grid;
-    grid-gap: 10px;
-    grid-template: 1fr;
-    padding:10px;
-    height:auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    margin: 0 auto;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+}
 
-    .nav-top ul {
-        display: flex;
 
-        li {
-            
-            
-            a {
-                text-decoration: none;
-                text-transform: uppercase;
-                font-size: .7em;
-                padding: 10px;
-                font-family: Helvetica, Verdana, Arial, sans-serif;
-                font-weight: 700;
-                color: $cinza - 2;
-
-                &:hover {
-                    color: $branco;
-                    background: $azul;
-                }
-            }
-        }
-    }
+footer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template: 1fr;
+    padding: 10px;
+    height: auto;
 }
