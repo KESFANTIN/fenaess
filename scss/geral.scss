@@ -1,7 +1,5 @@
 @import "plugins";
 
-// Container
-
 .container {
     display: grid;
     width: 1024px;
@@ -16,8 +14,8 @@ footer {
     grid-column: 1 / 4;
     padding: 10px;
     background:$verde;
+    
 }
-
 
 footer {
     height: auto;
