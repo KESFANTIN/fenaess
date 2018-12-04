@@ -58,7 +58,11 @@ footer {
   -ms-grid-column-span: 3;
   grid-column: 1 / 4;
   padding: 10px;
+<<<<<<< HEAD
   background: #00796B; }
+=======
+  background: #cccccc; }
+>>>>>>> a28aa6a89be8bad75abdd9a42b1bde62a520dfe0
 
 footer {
   height: auto; }
