@@ -61,7 +61,7 @@ table {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-  width: 1024px;
+  width: 90%;
   margin: 0 auto; }
 
 header {
@@ -76,7 +76,9 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   header .item-1 {
-    display: block; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
   header .item-2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -108,11 +110,16 @@ header {
           font-size: .7em;
           font-family: Helvetica, Arial, Verdana, sans-serif;
           font-weight: 700;
-          padding: 10px; }
+          padding: 8px; }
+          header .item-2 ul li a:hover {
+            color: #ffffff;
+            background: #394C88; }
     header .item-2 .facebook, header .item-2 .linkedin {
       color: #394C88; }
       header .item-2 .facebook:first-child, header .item-2 .linkedin:first-child {
         margin-left: 20px; }
+      header .item-2 .facebook:hover, header .item-2 .linkedin:hover {
+        color: #1d2644; }
 
 footer {
   display: -ms-grid;
