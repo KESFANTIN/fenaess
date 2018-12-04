@@ -1,24 +1,42 @@
 @import "plugins";
 
-// Container
 
+button {
+    background: $azul;
+    color: $branco;
+    border: 0;
+    padding: 0.5rem;
+}
+
+
+// Container
 .container {
-    display: grid;
-    width: 1024px;
-    margin: 0 auto;
+    display:grid;
+    width:90%;
+    margin:0 auto;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+section {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
+
+    .card {
+        padding: 10px;
+    }
+
+    h1, p {
+        margin-bottom: 10px;
+    }
 }
 
 header,
 footer {
-    grid-column: 1 / 4;
-    padding: 10px;
+    padding:15px;
     background:$cinza;
-}
-
-
-footer {
-    height: auto;
+    height:auto;
 }
