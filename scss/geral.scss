@@ -1,10 +1,7 @@
 @import "plugins";
 
-<<<<<<< HEAD
-=======
 // Container
 
->>>>>>> a28aa6a89be8bad75abdd9a42b1bde62a520dfe0
 .container {
     display: grid;
     width: 1024px;
@@ -18,17 +15,10 @@ header,
 footer {
     grid-column: 1 / 4;
     padding: 10px;
-<<<<<<< HEAD
-    background:$verde;
-    
-}
-
-=======
     background:$cinza;
 }
 
 
->>>>>>> a28aa6a89be8bad75abdd9a42b1bde62a520dfe0
 footer {
     height: auto;
 }
