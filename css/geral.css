@@ -42,18 +42,18 @@ table {
   border-spacing: 0; }
 
 .btn {
-  background: #1976d2;
+  background: #394C88;
   color: #ffffff;
   border: 0;
   padding: 0.5rem;
   text-decoration: none; }
   .btn:hover {
-    background: #00796B; }
+    background: #00A233; }
 
 .nav-social svg {
-  color: #0d3b69; }
+  color: #394C88; }
   .nav-social svg:hover {
-    color: #1976d2; }
+    color: #1d2644; }
 
 .container {
   display: -ms-grid;
@@ -67,7 +67,7 @@ table {
   margin: 0 auto; }
 
 .banner {
-  background: #cccccc;
+  background: #666666;
   padding: 10px; }
 
 main {
@@ -102,7 +102,7 @@ main {
 
 .card {
   padding: 10px;
-  background: #cccccc; }
+  background: #ffffff; }
   .card h1, .card p {
     margin-bottom: 10px; }
 
@@ -129,14 +129,14 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    header .nav-top ul li {
-      padding: 10px; }
-      header .nav-top ul li a {
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 0.8em;
-        font-family: Helvetica, Verdana, Arial, sans-serif;
-        font-weight: bold;
-        color: #0d3b69; }
-        header .nav-top ul li a:hover {
-          color: #1976d2; }
+    header .nav-top ul li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: .7em;
+      padding: 10px;
+      font-family: Helvetica, Verdana, Arial, sans-serif;
+      font-weight: 700;
+      color: #646464; }
+      header .nav-top ul li a:hover {
+        color: #ffffff;
+        background: #394C88; }

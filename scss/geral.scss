@@ -13,10 +13,10 @@
 }
 
 .nav-social svg {
-    color: $azul / 2;
+    color: $azul;
 
     &:hover {
-        color: $azul;
+        color: $azul / 2;
     }
 }
 
@@ -63,7 +63,7 @@ main {
 
 .card {
     padding: 10px;
-    background: $cinza;
+    background: $branco;
 
     h1, p {
         margin-bottom: 10px;
@@ -88,18 +88,20 @@ header {
         display: flex;
 
         li {
-            padding: 10px;
+            
             
             a {
                 text-decoration: none;
                 text-transform: uppercase;
-                font-size: 0.8em;
+                font-size: .7em;
+                padding: 10px;
                 font-family: Helvetica, Verdana, Arial, sans-serif;
-                font-weight: bold;
-                color: $azul / 2;
+                font-weight: 700;
+                color: $cinza - 2;
 
                 &:hover {
-                    color: $azul;
+                    color: $branco;
+                    background: $azul;
                 }
             }
         }
