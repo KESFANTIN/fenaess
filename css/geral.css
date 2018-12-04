@@ -63,7 +63,7 @@ table {
       grid-template-columns: 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-  width: 90%;
+  width: 1024px;
   margin: 0 auto; }
 
 .banner {
@@ -104,7 +104,7 @@ main {
   padding: 10px;
   background: #cccccc; }
   .card h1, .card p {
-    padding-bottom: 10px; }
+    margin-bottom: 10px; }
 
 header,
 footer {
